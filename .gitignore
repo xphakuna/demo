@@ -1,0 +1,17 @@
+UniTask/Library
+UniTask/Logs
+UniTask/obj
+UniTask/Temp
+UniTask/Packages
+UniTask/UserSettings
+UniTask/*.csproj
+UniTask/*.sln
+
+
+
+bin
+*.csproj.user
+log
+
+.*
+~*
