@@ -7,11 +7,12 @@ using UnityEngine.SceneManagement;
 
 // https://www.linkedin.com/pulse/unity-async-vs-coroutine-jo%C3%A3o-borks
 
-public class Test : MonoBehaviour
+public partial class Test : MonoBehaviour
 {
 	public Button btnCoroutine;
 	public Button btnUniTask;
 	public Button btnNet;
+
 
 	// Start is called once before the first execution of Update after the MonoBehaviour is created
 	void Start()
@@ -29,6 +30,16 @@ public class Test : MonoBehaviour
 		btnNet.onClick.AddListener(() =>
 		{
 			FuncUniNet().Forget();
+		});
+
+		btnStopTask1.onClick.AddListener(() =>
+		{
+			TestStopTask1();
+		});
+
+		btnCancelDisable.onClick.AddListener(() =>
+		{
+			TestCancelDisable();
 		});
 	}
 
