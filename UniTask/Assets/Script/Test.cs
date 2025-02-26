@@ -46,6 +46,11 @@ public partial class Test : MonoBehaviour
 		{
 			DoTryFinalize();
 		});
+
+		btnTryFinalize2.onClick.AddListener(() =>
+		{
+			DoTryFinalize2();
+		});
 	}
 
 	IEnumerator CoTask()

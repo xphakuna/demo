@@ -63,6 +63,9 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Test.cs" />
     <Compile Include="Assets\Script\TaskCanceller.cs" />
+    <Compile Include="Assets\Script\TestSafeCoroutine\TestSafeCoroutine.cs" />
+    <Compile Include="Assets\Script\TestSafeCoroutine\TestSafeCoroutine.exception.cs" />
+    <Compile Include="Assets\Script\SafeCoroutine.cs" />
     <Compile Include="Assets\Script\Test.exception.cs" />
     <Compile Include="Assets\Script\Test.cancelOld.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
